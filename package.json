@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "devDependencies": {
-    "json": "^11.0.0",
+    "json": "*",
     "standard-version": "*"
   },
   "standard-version": {
