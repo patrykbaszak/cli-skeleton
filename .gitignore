@@ -1,0 +1,6 @@
+# directories
+skeleton
+vendor
+
+# files
+composer.lock
