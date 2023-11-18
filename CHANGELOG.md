@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/patrykbaszak/cli-skeleton/compare/1.1.0...1.1.1) (2023-11-18)
+
+
+### Bug Fixes
+
+* Updated composer.json ([68cdf7b](https://github.com/patrykbaszak/cli-skeleton/commit/68cdf7b296dfeced1f3f38bdf205b318eebd313c))
+
 ## [1.1.0](https://github.com/patrykbaszak/cli-skeleton/compare/1.0.1...1.1.0) (2023-11-18)
 
 
