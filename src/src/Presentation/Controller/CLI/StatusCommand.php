@@ -10,10 +10,10 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
 #[AsCommand(
-    name: 'app:run',
-    description: 'Run the application',
+    name: 'app:status',
+    description: 'Get the status of the application.',
 )]
-class Run extends Command
+class StatusCommand extends Command
 {
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
