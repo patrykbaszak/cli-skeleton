@@ -5,6 +5,7 @@ composer create-project pbaszak/skeleton --no-interaction
 rm -rf skeleton/src
 rm -rf skeleton/config/routes.yaml
 cp -r src/src skeleton/src
+rm -rf skeleton/public
 
 docker run --rm -v $(pwd):/app -w /app php:latest php scripts/Setup.php
 
