@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.2](https://github.com/patrykbaszak/cli-skeleton/compare/1.1.1...1.1.2) (2023-11-18)
+
+
+### Bug Fixes
+
+* Removed routes ([d0c6523](https://github.com/patrykbaszak/cli-skeleton/commit/d0c6523417c4cefe146656c5d93f5d827f6401d0))
+
 ### [1.1.1](https://github.com/patrykbaszak/cli-skeleton/compare/1.1.0...1.1.1) (2023-11-18)
 
 
