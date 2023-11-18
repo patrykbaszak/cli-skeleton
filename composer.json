@@ -7,5 +7,12 @@
     "keywords": [
         "symfony",
         "skeleton"
-    ]
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.2",
+        "ext-json": "*",
+        "symfony/yaml": "6.3.*"
+    }
 }
