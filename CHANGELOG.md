@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/patrykbaszak/cli-skeleton/compare/1.2.0...1.3.0) (2023-11-19)
+
+
+### Features
+
+* Updated readme ([1a64cf0](https://github.com/patrykbaszak/cli-skeleton/commit/1a64cf01b1abba5b59c0be1b5ecf63f0f5782ac9))
+
 ## [1.2.0](https://github.com/patrykbaszak/cli-skeleton/compare/1.1.3...1.2.0) (2023-11-19)
 
 
