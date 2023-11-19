@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/patrykbaszak/cli-skeleton/compare/1.1.3...1.2.0) (2023-11-19)
+
+
+### Features
+
+* Added ci and corrected start.sh ([2c58472](https://github.com/patrykbaszak/cli-skeleton/commit/2c584722e7af37ff86f0c33989dc6ce2c482a7df))
+
+
+### Bug Fixes
+
+* Added chown $USER to main dir ([ad7c6cd](https://github.com/patrykbaszak/cli-skeleton/commit/ad7c6cd8607f2367e7102a88c7207e850f6212b2))
+* Added current user to docker container ([a2ac95e](https://github.com/patrykbaszak/cli-skeleton/commit/a2ac95efaaa989a92c611c82f2634b6dd5e28f4e))
+* Removed old github actions from main skeleton ([7fe123f](https://github.com/patrykbaszak/cli-skeleton/commit/7fe123f32232a5b9cfcd3929d9c731304fcc6000))
+
 ### [1.1.3](https://github.com/patrykbaszak/cli-skeleton/compare/1.1.2...1.1.3) (2023-11-18)
 
 
