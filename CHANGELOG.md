@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.2](https://github.com/patrykbaszak/cli-skeleton/compare/1.3.1...1.3.2) (2023-11-19)
+
+
+### Bug Fixes
+
+* Removed "or" statement for `composer update` ([121dfb5](https://github.com/patrykbaszak/cli-skeleton/commit/121dfb5c973d45bca01420f567103ba50c76f291))
+
 ### [1.3.1](https://github.com/patrykbaszak/cli-skeleton/compare/1.3.0...1.3.1) (2023-11-19)
 
 
