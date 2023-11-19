@@ -13,8 +13,11 @@ jobs:
     - name: Running start.sh Script
       run: bash start.sh
 
-    - name: Application Verification
-      run: |
-        docker exec php composer cache:clear
-        docker exec php bin/console app:status
-        docker exec php composer test:ci
+    - name: Application Build check
+      run: docker exec php composer cache:clear
+  
+    - name: Application Tests check
+      run: docker exec php composer test:ci
+
+    - name: Application status check
+      run: docker exec php bin/console app:status
