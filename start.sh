@@ -28,6 +28,7 @@ fi
 docker rm -f php >/dev/null 2>&1
 
 docker run -d --name php \
+    --user "$(id -u):$(id -g)" \
     -v $(pwd):/app \
     -w /app \
     $IMAGE_NAME bash -c "tail -f /dev/null"
@@ -54,8 +55,6 @@ docker exec php php scripts/Setup.php
 docker stop php >/dev/null 2>&1
 docker rm -f php >/dev/null 2>&1
 docker rmi -f $IMAGE_NAME >/dev/null 2>&1
-
-chown -R $USER .
 
 rm -rf node_modules scripts src .gitignore CHANGELOG.md composer.json composer.lock README.md LICENSE .git vendor start.sh package.json package-lock.json Dockerfile
 mv skeleton/{,.[^.]}* ./
