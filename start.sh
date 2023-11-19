@@ -55,6 +55,8 @@ docker stop php >/dev/null 2>&1
 docker rm -f php >/dev/null 2>&1
 docker rmi -f $IMAGE_NAME >/dev/null 2>&1
 
+chown -R $USER .
+
 rm -rf node_modules scripts src .gitignore CHANGELOG.md composer.json composer.lock README.md LICENSE .git vendor start.sh package.json package-lock.json Dockerfile
 mv skeleton/{,.[^.]}* ./
 rm -rf skeleton
