@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.4](https://github.com/patrykbaszak/cli-skeleton/compare/1.3.3...1.3.4) (2024-02-14)
+
+
+### Bug Fixes
+
+* Added develop.sh script and env boot function to kernel ([e186730](https://github.com/patrykbaszak/cli-skeleton/commit/e186730ac9c057c6eabe193b47103ca42784177f))
+* Corrected README.md ([c73e934](https://github.com/patrykbaszak/cli-skeleton/commit/c73e93412005362797f990d4f05af3ceda77ee24))
+
 ### [1.3.3](https://github.com/patrykbaszak/cli-skeleton/compare/1.3.2...1.3.3) (2023-11-19)
 
 
